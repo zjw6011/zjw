@@ -1,1 +1,14 @@
-傻屌
+git init  初始化   git add sq.txt  告诉git把文件添加到仓库中
+  
+git commit -m 'add sq.txt'   提交到仓库里面去
+
+git remote add origin git@github.com:zjw6011/zjw.git
+
+git push -u origin master   推送到远端
+ -u  表示把本地master关联到远程master分支
+以后的推送就不需要加上-u了，即：git push origin master
+ 
+
+
+1、git clone 加地址.git    从网上克隆到本地
+2、git clone git@github.com:zjw6011/zjw
